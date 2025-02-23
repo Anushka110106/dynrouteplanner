@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashed-line {
+  background-image: repeating-linear-gradient(
+    to right,
+    white 0%,
+    white 10%,
+    transparent 10%,
+    transparent 20%
+  );
+  background-size: 20px 2px;
+}
